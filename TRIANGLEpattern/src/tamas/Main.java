@@ -56,6 +56,16 @@ public class Main {
             System.out.println();
         }
         System.out.println("triangle increasing");
+        System.out.println();
+
+        int rowNumber= 5;
+        for (int rowI = 1 ; rowI <= rowNumber ; rowI++){
+            for (int starJ = rowI ; starJ <= rowNumber ; starJ++){
+                System.out.print(" * ");
+            }
+            System.out.println();
+        }
+        System.out.println("triangle decreasing");
 
 
 
