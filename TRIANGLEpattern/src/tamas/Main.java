@@ -69,8 +69,8 @@ public class Main {
 
         System.out.println("EDUCABA STAR PATTERN CODES");
         int myRows = 10;
-        for (int i = 1; i <= myRows; i++){
-            for (int j = 1; j <= i; j++){
+        for (int i = 1; i <= myRows; i++){ //randuri de la 1 la 10 bucati
+            for (int j = 1; j <= i; j++){  //coloane de la stanga la dreapta de la 10 la 1 bucati
                 System.out.print(" * ");
             }
             System.out.println("   ");
