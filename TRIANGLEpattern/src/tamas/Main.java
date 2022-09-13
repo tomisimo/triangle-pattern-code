@@ -67,6 +67,15 @@ public class Main {
         }
         System.out.println("triangle decreasing");
 
+        System.out.println("EDUCABA STAR PATTERN CODES");
+        int myRows = 10;
+        for (int i = 1; i <= myRows; i++){
+            for (int j = 1; j <= i; j++){
+                System.out.print(" * ");
+            }
+            System.out.println("   ");
+        }
+
 
 
 
